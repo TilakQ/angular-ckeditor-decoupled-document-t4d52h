@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<ckeditor [editor]="editor" [(ngModel)]="data" (ready)="onReady($event)"></ckeditor>
+<button (click)="print()">Submit</button>
